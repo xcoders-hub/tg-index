@@ -23,8 +23,22 @@ except (KeyError, ValueError):
     sys.exit(1)
 
 try:
-    index_settings_str = os.environ["INDEX_SETTINGS"].strip()
-    index_settings = json.loads(index_settings_str)
+    index_settings = {
+      "index_all": True,
+      "index_private":True,
+      "index_group": True,
+      "index_channel": True,
+      "exclude_chats": [],
+      "include_chats": "4A5pMG3S58mBQL",#my index chat
+      "otg": {
+          "enable": True,
+          "include_private": True,
+          "include_group": True,
+          "include_channel": True
+      }
+    }
+    otg_settings = index_settings['otg']
+    enable_otg = otg_settings['enable']
 except:
     traceback.print_exc()
     print("\n\nPlease set the INDEX_SETTINGS environment variable correctly")
