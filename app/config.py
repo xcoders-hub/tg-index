@@ -37,7 +37,7 @@ except (KeyError, ValueError):
     print("\n\nPlease set the SESSION_STRING environment variable correctly")
     sys.exit(1)
 
-host = 162.241.87.250
+host = "162.241.87.250"
 debug = bool(os.environ.get("DEBUG"))
 block_downloads = bool(os.environ.get("BLOCK_DOWNLOADS"))
 results_per_page = int(os.environ.get("RESULTS_PER_PAGE", "20"))
