@@ -45,7 +45,7 @@ except:
     sys.exit(1)
 
 try:
-    session_string = "1BVtsOMQBuysvXwTKTYlsi4OnkWR7a5_CLDHUzbX4ZbdocDGCzOevstpsrTBGrDERO_SxHIyPqAjdbRx5ACz1XKOpzhKCaO8iJMgdidcut7oRIXHJ-gR4uLOK79FToWvklBEgNuni2YD8ffU2rgJe54z0Z77RBygrRifHXhHJm77_Pcct2eeoxow-XercU2k6CuJedn6DZ722GOsG-o6zifcN5dIq40Url01eEuw8uRqn-v9gzyHXAUrjiErwTKZbWuz-e9Izxde4xZOZbTmpWI3okqdaAYBIC1dwaBN6nFN5GGswqCMuc0yN7rTla-5OEGtYAvRnqrQq1iz_Bz5epV6KHna-HJU="
+    session_string = "1BVtsOGYBuwI7Rr9EdRanpfkCgxwBHxwsiM2p0btW4tT48o7K7LH-tkyNkUMwbLZdAUhkmsMZg3jnlZvrj8Du1840GeDU3lgLovy-QiddtehPcSIIMvPqnsDAup2sRmT9bUynp0tlEuLgBecpaytQgcZDYrcVffs_5ipssogOXFJqDNbx6CUWvR44SBMJUvkAJqNC2BNI9PCyQyW4qJIdbqiFVUmoMT0GCI-12EOfuYIzNZ08OVP8paBRZcciIabV2gw_sYoS2IZQMJ2n4sfyedJdi2DQFYjydys8s6QrJ3ZN_Sw2OVLYEYdqy6Iib1pa8PgfOMOy13kEnS_cuaNfUuB9SSdMZ2U="
 except (KeyError, ValueError):
     traceback.print_exc()
     print("\n\nPlease set the SESSION_STRING environment variable correctly")
